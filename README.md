@@ -9,7 +9,7 @@ In this module, we used Python's Tensorflow library to explore neural networks a
 ### Data Preprocessing
 
 - Our target variable was the IS_SUCCESSFUL column
-- Our feature variables were the one-hot encoded categorical variables:
+- Our feature variables were the numerical variable ASK_AMT and one-hot encoded categorical variables:
 
     * AFFILIATION
     * CLASSIFICATION
@@ -18,7 +18,6 @@ In this module, we used Python's Tensorflow library to explore neural networks a
     * STATUS
     * INCOME_AMT
     * SPECIAL_CONSIDERATIONS
-    * ASK_AMT
 
 - The EIN and NAME columns are not targets or features and were removed
 
